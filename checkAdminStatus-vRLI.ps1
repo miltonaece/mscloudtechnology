@@ -5,7 +5,7 @@ $password = "PSC Password"
 
 Request-VCFToken `
     -fqdn "SDDC FQDN" `
-    -username "svc-vcf-report@vsphere.local" `
+    -username "administrator@vsphere.local" `
     -password $password
 
     connect-VcfSddcManagerServer `
