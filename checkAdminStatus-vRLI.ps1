@@ -14,7 +14,7 @@ Request-VCFToken `
     -password $password
 
     # Retrieve vRLI details
-$vRLIInfo = get-vrliServerDetail -Fqdn aqgge1avcf01.qgt.qld.gov.au -Username svc-vcf-report@vsphere.local -Password $password
+$vRLIInfo = get-vrliServerDetail -Fqdn "Your SDDC FQDN" -Username administrator@vsphere.local -Password $password
 
 # Extract primary node FQDN
 $PrimaryNodeFqdn = $vRLIInfo.node3Fqdn
